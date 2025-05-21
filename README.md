@@ -8,6 +8,6 @@ The header contains a city search function that adds a custom city to the tabs a
 
 The app is built using the latest Vue.js Framework, packaged with Vite, and deployed with Firebase.
 
-To see a working example, check out this link here: https://rioweather-app.web.app/
+To see a working example, check out this link here: https://riaweather.web.app/
 
 Enjoy!
