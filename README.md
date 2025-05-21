@@ -1,35 +1,13 @@
 # riaweather-app
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a Simple Weather App that shows the next 6 forecasts every 3 hours, as well as the forecast for the next 5 upcoming days.
 
-## Recommended IDE Setup
+These forecasts are based on the timezone of the chosen city and include temperature, precipitation percentage and time, as well as weather descriptions and daily high and low temps. This data is based on the OpenWeather API.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+The header contains a city search function that adds a custom city to the tabs above to see the forecast for any city in the world.
 
-## Customize configuration
+The app is built using the latest Vue.js Framework, packaged with Vite, and deployed with Firebase.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+To see a working example, check out this link here: https://rioweather-app.web.app/
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Enjoy!
