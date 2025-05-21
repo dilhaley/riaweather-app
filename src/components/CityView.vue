@@ -7,7 +7,7 @@
         <div v-if="forecastData" class="next-hours">
           <div v-for="(item) in forecastData.list.slice(0, 6)" :key="item.dt_txt" class="hourly-block">
             <p>{{ Math.round(item.main.temp) }} °F</p>
-            <p class="precip">{{ Math.round(item.pop * 100) }}%</p>
+            <p class="precip">{{ Math.round(item.clouds.all) }}%</p>
             <img :src="`https://openweathermap.org/img/wn/${item.weather[0].icon}@2x.png`" :alt="item.weather[0].description" />
             <p>{{ formatTime(item.dt) }}</p>
           </div>
@@ -196,6 +196,7 @@ export default {
 
 .day-block img {
   height: 80px;
+  margin-left: 22px
 }
 
 .longdate {
