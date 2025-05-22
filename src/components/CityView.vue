@@ -145,13 +145,12 @@ export default {
   width: 430px;
   background: #005C8C;
   background: linear-gradient(180deg,rgba(0, 92, 140, 1) 0%, rgba(0, 157, 189, 1) 75%, rgba(205, 188, 177, 1) 75%, rgba(199, 182, 166, 1) 100%);
-  overflow: scroll;
   padding: 10px;
 }
 
 .nxt, .nxt-5 {
   display: block;
-  overflow: scroll;
+  overflow-x: scroll;
   padding: 10px;
   background: #fdfdfd;
 }

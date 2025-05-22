@@ -17,5 +17,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_RIOWEATHER_APP }}
-          projectId: rioweather-app
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_RIAWEATHER }}
+          projectId: riaweather
